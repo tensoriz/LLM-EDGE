@@ -1,0 +1,23 @@
+[package]
+name = "llm-edge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+axum = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+arc-swap = "1.6"
+moka = { version = "0.12", features = ["future"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+hdrhistogram = "7.5"
+blake3 = "1.5" # For prompt hashing
+anyhow = "1.0"
+thiserror = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.8"
+matchit = "0.7"
+num_cpus = "1.0"
