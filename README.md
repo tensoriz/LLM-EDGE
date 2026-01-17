@@ -351,4 +351,4 @@ Not specified. Assume proprietary or add license file.
 
 ## Contact
 
-Repository owner: `tensoriz` (inferred from workspace path)
+Repository owner: `tensoriz`
